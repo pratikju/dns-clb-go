@@ -5,8 +5,8 @@ import (
 	"log"
 	"testing"
 
-	"github.com/benschw/dns-clb-go/dns"
-	"github.com/benschw/dns-clb-go/randomclb"
+	"github.com/pratikju/dns-clb-go/dns"
+	"github.com/pratikju/dns-clb-go/randomclb"
 )
 
 var _ = fmt.Print // For debugging; delete when done.

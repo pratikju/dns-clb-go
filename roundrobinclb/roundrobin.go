@@ -5,7 +5,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/benschw/dns-clb-go/dns"
+	"github.com/pratikju/dns-clb-go/dns"
 )
 
 type ByTarget []net.SRV

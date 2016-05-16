@@ -2,8 +2,9 @@ package randomclb
 
 import (
 	"fmt"
-	"github.com/benschw/dns-clb-go/dns"
 	"math/rand"
+
+	"github.com/pratikju/dns-clb-go/dns"
 )
 
 func NewRandomClb(lib dns.Lookup) *RandomClb {

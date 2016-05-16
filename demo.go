@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/benschw/dns-clb-go/clb"
+	"github.com/pratikju/dns-clb-go/clb"
 	"io/ioutil"
 	"log"
 	"net/http"
