@@ -74,11 +74,8 @@ func (l *LookupLib) parseAAnswer(answer *dns.Msg) (string, error) {
 	if len(answer.Answer) == 0 {
 		return "", fmt.Errorf("Answer Empty")
 	}
-	if a, ok := answer.Answer[0].(*dns.A); ok {
-
+	if a, ok := answer.Answer[len(answer.Answer)-1].(*dns.A); ok {
 		return a.A.String(), nil
-
-		//		return string(a.A[:n]), nil
 	}
 	return "", fmt.Errorf("Could not parse A record")
 }
