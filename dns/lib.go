@@ -28,6 +28,7 @@ func NewDefaultLookupLib() *LookupLib {
 	l.serverString = serverString
 	return l
 }
+
 func NewLookupLib(serverString string) *LookupLib {
 	l := new(LookupLib)
 	l.serverString = serverString

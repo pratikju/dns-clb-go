@@ -4,11 +4,12 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/pratikju/dns-clb-go/clb"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
+
+	"github.com/pratikju/dns-clb-go/clb"
 )
 
 func getAddress(svcName string) (string, error) {
